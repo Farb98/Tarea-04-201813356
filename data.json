@@ -1,0 +1,30 @@
+[
+    {
+        "price": 2200,
+        "name": "Leche"
+    },
+    {
+        "price": 1000,
+        "name": "Pan"
+    },
+    {
+        "price": 4000,
+        "name": "Chocolate"
+    },
+    {
+        "price": 4500,
+        "name": "Pollo"
+    },
+    {
+        "price": 13500,
+        "name": "Bandeja de huevos"
+    },
+    {
+        "price": "5000",
+        "name": "Lentejas"
+    },
+    {
+        "price": "1200",
+        "name": "Bolsa de agua"
+    }
+]

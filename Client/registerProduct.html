@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <title>Products</title>
+</head>
+<body>
+    <form action="http://localhost:3000/registerProduct" method="POST" name="info">
+            <h1 id="Register" style="margin-left: 35%;">Registro de producto</h1>
+            <input type="text" class="form-control" name="price" id="price" placeholder="Ingrese el precio"
+            style="margin-left: 35%; height: 65px; width: 250px;" autofocus required>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Ingrese el nombre" 
+            style="margin-left: 5%; height: 65px; width: 250px;" autofocus required>
+            <br>
+        <div class="form-group">
+            <button class="button is-primary" id="registerBtn" onclick="registerProduct()" style="background-color: #5FA2F8;
+            color: #FFFFFF; margin-left: 35%;" >Registrar</button>
+            <button class="button is-primary" id="showBtn" onclick="showProduct()" style="background-color: #5FA2F8;
+            color: #FFFFFF; margin-left: 12.7%;">Mostrar productos</button>
+            <br>
+        </div>
+    </form>
+    <script src="Client.js"></script>
+</body>
+</html>
